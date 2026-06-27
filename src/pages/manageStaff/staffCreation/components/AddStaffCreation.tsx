@@ -508,32 +508,6 @@ function AddStaffCreation({ open, handleClose, editingStaff, refetch }: AddHospi
                   <Stack direction="row" spacing={2} mb={2}>
                     <LocalizationProvider dateAdapter={AdapterDayjs}>
                       <DatePicker
-                        label="Date of Birth"
-                        format="DD/MM/YYYY"
-                        value={values.dateofbirth ? dayjs(values.dateofbirth) : null}
-                        onChange={(newValue) => {
-                          setFieldValue(
-                            'dateofbirth',
-                            newValue ? newValue.format('YYYY-MM-DD') : '',
-                          );
-                        }}
-                        slotProps={{
-                          textField: {
-                            fullWidth: true,
-                            size: 'small',
-                            onBlur: () => setFieldTouched('dateofbirth', true, true),
-                            error: !!touched.dateofbirth && !!errors.dateofbirth,
-                            helperText: (touched.dateofbirth && errors.dateofbirth) || '',
-                            InputLabelProps: {
-                              shrink: true,
-                            },
-                          },
-                        }}
-                      />
-                    </LocalizationProvider>
-
-                    <LocalizationProvider dateAdapter={AdapterDayjs}>
-                      <DatePicker
                         label="Date of Joining"
                         format="DD/MM/YYYY"
                         value={values.dateofjoining ? dayjs(values.dateofjoining) : null}
@@ -554,8 +528,6 @@ function AddStaffCreation({ open, handleClose, editingStaff, refetch }: AddHospi
                         }}
                       />
                     </LocalizationProvider>
-                  </Stack>
-                  <Stack direction="row" spacing={2}>
                     <LocalizationProvider dateAdapter={AdapterDayjs}>
                       <DatePicker
                         label="Date of Leaving"
@@ -574,6 +546,31 @@ function AddStaffCreation({ open, handleClose, editingStaff, refetch }: AddHospi
                             onBlur: () => setFieldTouched('dateofleaving', true, true),
                             error: !!touched.dateofleaving && !!errors.dateofleaving,
                             helperText: (touched.dateofleaving && errors.dateofleaving) || '',
+                          },
+                        }}
+                      />
+                    </LocalizationProvider>
+            
+                  </Stack>
+                  <Stack direction="row" spacing={2}>
+                    <LocalizationProvider dateAdapter={AdapterDayjs}>
+                      <DatePicker
+                        label="Date of Birth"
+                        format="DD/MM/YYYY"
+                        value={values.dateofbirth ? dayjs(values.dateofbirth) : null}
+                        onChange={(newValue) => {
+                          setFieldValue(
+                            'dateofbirth',
+                            newValue ? newValue.format('YYYY-MM-DD') : '',
+                          );
+                        }}
+                        slotProps={{
+                          textField: {
+                            fullWidth: true,
+                            size: 'small',
+                            onBlur: () => setFieldTouched('dateofbirth', true, true),
+                            error: !!touched.dateofbirth && !!errors.dateofbirth,
+                            helperText: (touched.dateofbirth && errors.dateofbirth) || '',
                           },
                         }}
                       />
