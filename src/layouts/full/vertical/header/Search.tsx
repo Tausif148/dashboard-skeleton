@@ -17,7 +17,9 @@ import { useState } from 'react';
 import { IconSearch, IconX } from '@tabler/icons-react';
 
 import { Link } from 'react-router';
-import Menuitems from '../../horizontal/navbar/Menudata';
+// import Menuitems from '../../horizontal/navbar/Menudata';
+import Menuitems from '../../../../menuItems/MenuItems';
+
 
 interface menuType {
   title: string;
