@@ -1,0 +1,1 @@
+import{u,Q as a}from"./useListQuery-Bt5KnVFL.js";import{R as c}from"./client-rn5FaoSj.js";const y=(o={})=>{const{page:e=1,limit:r=10,search:s=""}=o,t=[a.role,e,r,s||""];return u(t,c.GET_ALL_ROLES,{page:e,limit:r,search:s})};export{y as u};

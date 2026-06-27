@@ -1,0 +1,195 @@
+import { grey } from '@mui/material/colors';
+
+const baselightTheme = {
+  direction: 'ltr',
+  palette: {
+    primary: {
+      main: '#5D87FF',
+      light: '#ECF2FF',
+      dark: '#4570EA',
+    },
+    secondary: {
+      main: '#49BEFF',
+      light: '#E8F7FF',
+      dark: '#23afdb',
+    },
+    success: {
+      main: '#13DEB9',
+      light: '#E6FFFA',
+      dark: '#02b3a9',
+      contrastText: '#ffffff',
+    },
+    info: {
+      main: '#539BFF',
+      light: '#EBF3FE',
+      dark: '#1682d4',
+      contrastText: '#ffffff',
+    },
+    error: {
+      main: '#FA896B',
+      light: '#FDEDE8',
+      dark: '#f3704d',
+      contrastText: '#ffffff',
+    },
+    warning: {
+      main: '#FFAE1F',
+      light: '#FEF5E5',
+      dark: '#ae8e59',
+      contrastText: '#ffffff',
+    },
+    purple: {
+      A50: '#EBF3FE',
+      A100: '#6610f2',
+      A200: '#557fb9',
+    },
+    grey: {
+      100: '#F2F6FA',
+      200: '#EAEFF4',
+      300: '#DFE5EF',
+      400: '#7C8FAC',
+      500: '#5A6A85',
+      600: '#2A3547',
+    },
+    text: {
+      primary: '#2A3547',
+      secondary: '#5A6A85',
+    },
+    background: {
+      default: '#F5F7F9',
+      paper: '#ffffff',
+    },
+    action: {
+      disabledBackground: 'rgba(73,82,88,0.12)',
+      hoverOpacity: 0.02,
+      hover: '#f6f9fc',
+    },
+    divider: '#ebf1f6',
+    custom: {
+      white: "#ffffff",
+      offWhite: "rgba(255, 255, 255, 1)",
+      gold: 'rgba(171, 147, 115, 1)',
+      blurBackground: "rgba(0, 0, 0, 0.2)",
+      halfBlack: 'rgba(32, 41, 58, 1)',
+      muted: "rgba(118, 118, 118, 1)",
+      iconBg: 'rgba(57, 54, 63, 1)',
+      darkText: 'rgba(44, 44, 57, 1)',
+      heading: 'rgba(31, 41, 55, 1)',
+      featureCardBg: 'rgba(255, 240, 219, 1)',
+      black1: 'rgba(0, 0, 0, 1)',
+      standBgColor: 'rgba(171, 147, 115, 0.5)',
+      black2: 'rgba(0, 0, 0, 0.4)',
+      journalSubTitle: 'rgba(58, 66, 77, 1)',
+      testimonialBg: 'rgba(239, 239, 239, 0.5)',
+      memberSubheading: 'rgba(30, 30, 30, 0.6)',
+      memberCardBg: 'rgba(255, 241, 223, 0.2)',
+      footerText: 'rgba(209, 213, 219, 1)',
+      heroSubtitle: "rgba(214, 212, 212, 1)",
+      journalBg: "rgba(171, 147, 115, 0.1)",
+      golderButtonBorder: 'rgba(229, 231, 235, 1)',
+      memberBg: 'rgba(255, 255, 255, 0.3)',
+      buttonBorder: "rgba(229, 231, 235, 1)",
+      gold2: "rgba(171, 147, 115, 1)",
+      darkBlue: "#2C2C39",
+      black: '#3A424D'
+    },
+  },
+};
+
+const baseDarkTheme = {
+  direction: 'ltr',
+  palette: {
+    primary: {
+      main: '#5D87FF',
+      light: '#ECF2FF',
+      dark: '#4570EA',
+    },
+    secondary: {
+      main: '#777e89',
+      light: '#1C455D',
+      dark: '#173f98',
+    },
+    success: {
+      main: '#13DEB9',
+      light: '#1B3C48',
+      dark: '#02b3a9',
+      contrastText: '#ffffff',
+    },
+    info: {
+      main: '#539BFF',
+      light: '#223662',
+      dark: '#1682d4',
+      contrastText: '#ffffff',
+    },
+    error: {
+      main: '#FA896B',
+      light: '#4B313D',
+      dark: '#f3704d',
+      contrastText: '#ffffff',
+    },
+    warning: {
+      main: '#FFAE1F',
+      light: '#4D3A2A',
+      dark: '#ae8e59',
+      contrastText: '#ffffff',
+    },
+    purple: {
+      A50: '#EBF3FE',
+      A100: '#6610f2',
+      A200: '#557fb9',
+    },
+    grey: {
+      100: '#333F55',
+      200: '#465670',
+      300: '#7C8FAC',
+      400: '#DFE5EF',
+      500: '#EAEFF4',
+      600: '#F2F6FA',
+    },
+    text: {
+      primary: '#EAEFF4',
+      secondary: '#7C8FAC',
+    },
+    action: {
+      disabledBackground: 'rgba(73,82,88,0.12)',
+      hoverOpacity: 0.02,
+      hover: '#333F55',
+    },
+    divider: grey[100],
+    background: {
+      default: '#171c23',
+      dark: '#171c23',
+      paper: '#171c23',
+    },
+    custom: {
+      white: "#ffffff",
+      offWhite: "rgba(255, 255, 255, 1)",
+      gold: 'rgba(171, 147, 115, 1)',
+      blurBackground: "rgba(0, 0, 0, 0.2)",
+      halfBlack: 'rgba(32, 41, 58, 1)',
+      muted: "rgba(118, 118, 118, 1)",
+      iconBg: 'rgba(57, 54, 63, 1)',
+      darkText: 'rgba(44, 44, 57, 1)',
+      heading: 'rgba(31, 41, 55, 1)',
+      featureCardBg: 'rgba(255, 240, 219, 1)',
+      black1: 'rgba(0, 0, 0, 1)',
+      standBgColor: 'rgba(171, 147, 115, 0.5)',
+      black2: 'rgba(0, 0, 0, 0.4)',
+      journalSubTitle: 'rgba(58, 66, 77, 1)',
+      testimonialBg: 'rgba(239, 239, 239, 0.5)',
+      memberSubheading: 'rgba(30, 30, 30, 0.6)',
+      memberCardBg: 'rgba(255, 241, 223, 0.2)',
+      footerText: 'rgba(209, 213, 219, 1)',
+      heroSubtitle: "rgba(214, 212, 212, 1)",
+      journalBg: "rgba(171, 147, 115, 0.1)",
+      golderButtonBorder: 'rgba(229, 231, 235, 1)',
+      memberBg: 'rgba(255, 255, 255, 0.3)',
+      buttonBorder: "rgba(229, 231, 235, 1)",
+      gold2: "rgba(171, 147, 115, 1)",
+      darkBlue: "#2C2C39",
+      black: '#3A424D'
+    },
+  },
+};
+
+export { baseDarkTheme, baselightTheme };
+

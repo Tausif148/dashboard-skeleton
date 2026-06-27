@@ -1,0 +1,1 @@
+import{u as r,Q as u}from"./useListQuery-Bt5KnVFL.js";import{u as c}from"./useDecoded-Cj1YgLMS.js";import{Q as n}from"./client-rn5FaoSj.js";const p=(t={})=>{const{page:o=1,limit:s=10,search:i=""}=t,{company_id:e}=c(),a=[u.qualifications,e,o,s,i||""];return r(a,n.GET_ALL_QUALIFICATIONS,{page:o,limit:s,search:i,company_id:e},void 0,{enabled:e>0})};export{p as u};

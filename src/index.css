@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Hide native scrollbars but keep scrolling behavior */
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  /* background-color: #F5F7F9; */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+/* Extra rules for browsers that don't respect display:none */
+*::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 0 none !important;
+}
+
+/* scoped helper class if you want to hide scrollbars only on specific containers */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.summaryName {
+  margin-bottom: 5rem;
+}
+
+.date-picker-input-wrapper,
+.date-picker-input-wrapper .react-datepicker__input-container {
+  width: 100%;
+}

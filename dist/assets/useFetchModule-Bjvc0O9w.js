@@ -1,0 +1,1 @@
+import{u,Q as a}from"./useListQuery-Bt5KnVFL.js";import{M as m}from"./client-rn5FaoSj.js";const y=(o={})=>{const{page:e=1,limit:s=10,search:r=""}=o,t=[a.modules,e,s,r||""];return u(t,m.GET_ALL_MODULES,{page:e,limit:s,search:r})};export{y as u};

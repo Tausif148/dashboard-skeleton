@@ -1,0 +1,1 @@
+import{s as t,j as s,T as a}from"./index-CQFirLHe.js";const r=t(o=>s.jsx(a,{variant:"subtitle1",fontWeight:500,...o,component:"label",htmlFor:o.htmlFor,color:"grey"}))(()=>({display:"block"}));export{r as C};
