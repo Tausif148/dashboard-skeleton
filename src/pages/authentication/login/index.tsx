@@ -37,7 +37,7 @@ const Login = () => {
             <Box
               component="img"
               src={riceMealLogo}
-              alt="Doctor ERP Management System"
+              alt="Skeleton ERP Management System"
               sx={{
                 width: 110,
                 height: 'auto',
@@ -100,7 +100,7 @@ const Login = () => {
                       px: 5,
                     }}
                   >
-                    Login to access your Doctor ERP Management System
+                    Login to access your Skeleton ERP Management System
                   </Typography>
                 }
               />
@@ -150,7 +150,7 @@ const Login = () => {
               variant="caption"
               sx={{ display: 'block', textAlign: 'center', color: '#A5D6A7', marginBottom: '6px' }}
             >
-              © 2024 Doctor ERP Management System. All rights reserved.
+              © 2024 Skeleton ERP Management System. All rights reserved.
             </Typography>
           </Box>
         </Grid>

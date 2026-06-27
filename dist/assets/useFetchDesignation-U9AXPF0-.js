@@ -1,0 +1,1 @@
+import{u as a,Q as n}from"./useListQuery-vLkBrLSQ.js";import{u}from"./useDecoded-fRAMfWWx.js";import{c}from"./client-CaAbKMYC.js";const y=(r={})=>{const{page:s=1,limit:o=10,search:t=""}=r,{company_id:e}=u(),i=[n.designations,e,s,o,t||""];return a(i,c.GET_ALL_DESIGNATIONS,{page:s,limit:o,search:t,company_id:e},void 0,{enabled:e>0})};export{y as u};

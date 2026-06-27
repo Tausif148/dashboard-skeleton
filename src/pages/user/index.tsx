@@ -98,7 +98,7 @@ function Index() {
         <Grid container justifyContent="space-between" alignItems="center" spacing={2}>
           <Grid
             size={{ xs: 12, sm: 4, md: 3 }}
-            sx={{ mb: 2, display: 'flex', alignItems: 'center' }}
+            sx={{ display: 'flex', alignItems: 'center' }}
           >
             <Typography variant="h4">User List</Typography>
           </Grid>

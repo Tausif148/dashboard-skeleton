@@ -1,1 +1,0 @@
-import{u as o,Q as a}from"./useListQuery-Bt5KnVFL.js";import{a as m}from"./client-rn5FaoSj.js";const i=(t={})=>{const{page:e=1,limit:s=10,search:r=""}=t,u=[a.menus,e,s,r||""];return o(u,m.GET_ALL_MENUS,{page:e,limit:s,search:r})};export{i as u};

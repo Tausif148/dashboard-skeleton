@@ -106,7 +106,7 @@ function Index() {
         }}
       >
         <Grid container alignItems="center" spacing={2}>
-          <Grid size={{ xs: 12, md: 6, }} sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
+          <Grid size={{ xs: 12, md: 6, }} sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography variant="h4">Assign List</Typography>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>

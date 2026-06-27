@@ -110,7 +110,7 @@ function Index() {
 
         <Grid container alignItems="center" spacing={2}>
           {/* Page title */}
-          <Grid size={{ xs: 12, md: 4 }} sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
+          <Grid size={{ xs: 12, md: 4 }} sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography variant="h4">Company List</Typography>
           </Grid>
 

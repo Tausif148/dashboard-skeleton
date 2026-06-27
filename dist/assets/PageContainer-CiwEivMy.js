@@ -1,0 +1,1 @@
+import{j as t}from"./index-Bp3v-Q-N.js";const o=({title:e,description:n,children:s})=>t.jsxs("div",{children:[t.jsx("title",{children:e}),t.jsx("meta",{name:"description",content:n}),s]});export{o as P};

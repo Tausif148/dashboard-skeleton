@@ -15,11 +15,8 @@ import PageContainer from 'src/components/container/PageContainer';
 import {
   AddIcon,
   CloseIcon,
-  DashboardIcon,
-  FormatListBulletedIcon,
   RefreshIcon,
-  SearchIcon,
-  ViewModuleIcon,
+  SearchIcon
 } from 'src/icons/icons';
 import { useFetchMenu } from 'src/queries/useFetchMenu';
 import AddMenu from './components/AddMenu';
@@ -52,7 +49,7 @@ function Index() {
   };
 
   const handleEditMenu = (menu: any) => {
-    setEditingMenu(menu); 
+    setEditingMenu(menu);
     setOpen(true);
   };
 
@@ -103,7 +100,7 @@ function Index() {
         }}
       >
         <Grid container alignItems="center" spacing={2}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography variant="h4">Menu List</Typography>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }}>
