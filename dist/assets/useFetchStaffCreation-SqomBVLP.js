@@ -1,0 +1,1 @@
+import{u,Q as m}from"./useListQuery-CAEMJFJu.js";import{u as c}from"./useDecoded-BoyLcaO3.js";import{d as i}from"./client-Dj1nJcxt.js";const f=(t={})=>{const{page:e=1,limit:o=10,search:r=""}=t,{company_id:s}=c(),a=[m.manpower,s,e,o,r||""];return u(a,i.GET_ALL_MANPOWER,{page:e,limit:o,search:r,company_id:s})};export{f as u};

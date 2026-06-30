@@ -1,1 +1,0 @@
-import{u as o,Q as a}from"./useListQuery-vLkBrLSQ.js";import{U as c}from"./client-CaAbKMYC.js";const y=(t={})=>{const{page:s=1,limit:e=10,search:r=""}=t,u=[a.users,s,e,r||""];return o(u,c.GET_ALL_USERS,{page:s,limit:e,search:r})};export{y as u};

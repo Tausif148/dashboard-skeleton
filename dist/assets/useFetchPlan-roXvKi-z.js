@@ -1,1 +1,0 @@
-import{u as o,Q as u}from"./useListQuery-vLkBrLSQ.js";import{P as n}from"./client-CaAbKMYC.js";const m=(t={})=>{const{page:s=1,limit:e=10,search:r=""}=t,a=[u.plans,s,e,r||""];return o(a,n.GET_ALL_PLANS,{page:s,limit:e,search:r})};export{m as u};

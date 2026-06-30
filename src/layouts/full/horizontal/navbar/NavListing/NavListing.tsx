@@ -4,7 +4,7 @@ import { Box, List, Theme, useMediaQuery } from '@mui/material';
 import { useContext } from 'react';
 import { useLocation } from 'react-router';
 import { CustomizerContext } from 'src/context/CustomizerContext';
-import Menudata from '../Menudata';
+import Menudata from 'src/menuItems/MenuItems';
 import NavCollapse from '../NavCollapse/NavCollapse';
 import NavItem from '../NavItem/NavItem';
 

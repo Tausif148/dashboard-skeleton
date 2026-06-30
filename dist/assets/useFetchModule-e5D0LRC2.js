@@ -1,0 +1,1 @@
+import{u,Q as a}from"./useListQuery-CAEMJFJu.js";import{M as m}from"./client-Dj1nJcxt.js";const y=(o={})=>{const{page:e=1,limit:s=10,search:r=""}=o,t=[a.modules,e,s,r||""];return u(t,m.GET_ALL_MODULES,{page:e,limit:s,search:r})};export{y as u};
